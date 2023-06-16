@@ -27,7 +27,7 @@ app.use(FileUpload({
   useTempFiles : true,
     tempFileDir : '/tmp/images'
 }));
-app.use(express.static("assets"));
+app.use(express.static("/tmp/images"));
 // app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(infografisRoute);
