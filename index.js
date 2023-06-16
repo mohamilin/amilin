@@ -35,10 +35,10 @@ app.use(express.static('public'))
 // app.use(aksiRoute);
 // app.use(komentarRoute);
 // app.use(kontribusiRoute);
-app.use("/api", routes);
-app.get('/', (req, res) => {
-  res.send('Hello Guys!')
-})
+app.use("/", routes);
+// app.get('/', (req, res) => {
+//   res.send('Hello Guys!')
+// })
 
 
 app.listen(PORT, () => {
