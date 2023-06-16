@@ -2,13 +2,13 @@ import express from "express";
 import FileUpload from "express-fileupload";
 import cors from "cors";
 import dotenv from "dotenv";
-// import infografisRoute from "./routes/infografisRoute.js";
-// import userRoute from "./routes/userRoute.js";
-// import donasiRoute from "./routes/donasiRoute.js";
-// import artikelRoute from "./routes/artikelRoute.js";
-// import aksiRoute from "./routes/aksiRoute.js";
-// import komentarRoute from "./routes/komentarRoute.js";
-// import kontribusiRoute from "./routes/kontribusiRoute.js";
+import infografisRoute from "./routes/infografisRoute.js";
+import userRoute from "./routes/userRoute.js";
+import donasiRoute from "./routes/donasiRoute.js";
+import artikelRoute from "./routes/artikelRoute.js";
+import aksiRoute from "./routes/aksiRoute.js";
+import komentarRoute from "./routes/komentarRoute.js";
+import kontribusiRoute from "./routes/kontribusiRoute.js";
 // import path  from 'path'
 import cookieParser from 'cookie-parser'
 
