@@ -27,13 +27,13 @@ app.use(FileUpload());
 // app.use(express.static("/tmp/images"));
 app.use(express.static('public'))
 
-app.use(infografisRoute);
-app.use(userRoute);
-app.use(donasiRoute);
-app.use(artikelRoute);
-app.use(aksiRoute);
-app.use(komentarRoute);
-app.use(kontribusiRoute);
+// app.use(infografisRoute);
+// app.use(userRoute);
+// app.use(donasiRoute);
+// app.use(artikelRoute);
+// app.use(aksiRoute);
+// app.use(komentarRoute);
+// app.use(kontribusiRoute);
 app.get('/', (req, res) => {
   res.send('Hello Guys!')
 })
