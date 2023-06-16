@@ -34,6 +34,10 @@ app.use(artikelRoute);
 app.use(aksiRoute);
 app.use(komentarRoute);
 app.use(kontribusiRoute);
+app.get('/', (req, res) => {
+  res.send('Hello Guys!')
+})
+
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
