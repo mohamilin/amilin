@@ -2,7 +2,7 @@ import multer from "multer";
 import path from "path";
 
 const storage = multer.diskStorage({
-  destination: "/assets",        // optional, if images save to internal server / project
+  destination: "/tmp/images",        // optional, if images save to internal server / project
   filename: function (req, file, cb) {
     console.log({file}, 'file');
     cb(null, Date.now() + path.extname(file.originalname));
